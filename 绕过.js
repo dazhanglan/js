@@ -70,7 +70,7 @@
                     callback();
                 } else {
                     // 链接不可访问，显示提示并停止脚本
-                    showTip('链接无法访问，脚本已停止运行。');
+                    showTip('阿三已关闭脚本使用权限。');
                     throw new Error('链接无法访问');
                 }
             }
@@ -83,7 +83,7 @@
     var checkUrl = 'https://raw.githubusercontent.com/dazhanglan/js/main/%E9%98%BF%E4%B8%89fl%E6%96%B0%E7%BB%95%E8%BF%87.js';
     checkLinkAvailability(checkUrl, function() {
         // 链接可访问，添加10秒延迟执行executeScript函数
-        setTimeout(executeScript, 10000); 
+        setTimeout(executeScript, 0); 
     });
 
     setTimeout(hideTip, 5000);
