@@ -81,7 +81,7 @@
     }
 
     // 检查链接
-    var checkUrl = 'https://github.com/dazhanglan/js/raw/main/1145141';
+    var checkUrl = 'https://github.com/dazhanglan/js/blob/main/1145141';
     checkLinkAvailability(checkUrl, function() {
         // 链接可访问，添加10秒延迟执行executeScript函数
         setTimeout(executeScript, 0); 
