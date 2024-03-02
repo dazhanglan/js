@@ -1,4 +1,5 @@
 // ==UserScript==
+// @icon         https://github.com/dazhanglan/Sunday/raw/main/pictures/%E9%98%BF%E4%B8%89.jpg
 // @name         忍者绕过
 // @description  永久免费，严禁倒卖
 // @match        https://gateway.platoboost.com/a/8?id=*
